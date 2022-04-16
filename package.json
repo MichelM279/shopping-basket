@@ -1,0 +1,14 @@
+{
+  "name": "workspace",
+  "version": "1.0.0",
+  "main": "src/index.ts",
+  "scripts": {
+    "go": "npm run build && npm run start",
+    "build": "tsc",
+    "start": "node dist/index.js"
+  },
+  "author": "Michel Mangold",
+  "devDependencies": {
+    "typescript": "^4.6.3"
+  }
+}
